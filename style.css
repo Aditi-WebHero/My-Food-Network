@@ -2,7 +2,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0px;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 
@@ -60,4 +60,40 @@ h3{
     background-repeat: no-repeat;
     background-position-y: 0%;
     padding: 10px;
+}
+.recipe{ 
+    display: flex;
+    
+        
+}
+.recipe img{
+    width:400px
+
+}
+#vai{
+    text-align: center;
+}
+#me{
+    text-align: center;
+}
+#baba{
+    border: 10px 10px 10px 10px solid white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px wheat;
+    width: 33%;
+    height: 10%;
+    padding: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+
+}
+footer{
+    background-color: rgb(152, 152, 243);
+    height: 200px;
+    width: 1400px;
+    text-align: center;
+
+}
+span{
+    color:white
 }
